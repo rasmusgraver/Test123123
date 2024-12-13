@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bane {
+    background-image: url("bilder/bane.jpg");
+    background-size: 100% 100%;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+#ball {
+    width: 40px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
